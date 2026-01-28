@@ -1,7 +1,17 @@
 {
-  "mcpServers": {
-    "n8n-render": {
-      "url": "https://n8nsever.onrender.com/mcp"
-    }
+  "name": "n8nsever",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.3",
+    "express": "^4.19.2",
+    "axios": "^1.6.7"
   }
 }
