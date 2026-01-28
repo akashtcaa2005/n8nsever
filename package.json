@@ -1,16 +1,16 @@
 {
-  "name": "mcp-n8n-server",
+  "name": "n8nsever",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=18"
+    "node": "18.x"
   },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.25.3",
     "axios": "^1.6.7",
     "express": "^4.19.2"
   }
